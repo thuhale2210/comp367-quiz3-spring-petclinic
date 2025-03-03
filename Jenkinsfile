@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/thuhale2210/comp367-quiz3-spring-petclinic.git'
+                git branch: 'main', url: 'https://github.com/thuhale2210/comp367-quiz3-spring-petclinic.git'
             }
         }
 
